@@ -51,7 +51,7 @@ const ROOM_CONCEPTS: RoomConcept[] = [
       'Integrated under-cabinet LED task illumination',
       'Zero-stain, heat-resistant sintered stone counters'
     ],
-    image: '/images/wooden-kitchen-ceiling.jpg'
+    image: '/img/hero/hero-modular-kitchen.jpg'
   },
   {
     id: 'dining',

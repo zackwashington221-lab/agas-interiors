@@ -50,7 +50,7 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "/img/hero/candid-showroom-hero.jpg",
+        url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
         alt: "Contemporary master suite interior design",
         caption: "Master bedroom suite with integrated lighting paneling"
       },
@@ -102,12 +102,12 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "/img/tile/living-room-furniture.webp",
+        url: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
         alt: "Whole villa transformation in D.H.A. Karachi",
         caption: "Living room transformation with custom partition joinery"
       },
       {
-        url: "/img/tile/closet-system.png",
+        url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
         alt: "Renovated salon and dining suite",
         caption: "Floor-to-ceiling glass display joinery installation"
       }
@@ -153,12 +153,12 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "/img/tile/kitchen-furniture.jpg",
+        url: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
         alt: "Nordika handleless modular kitchen design",
         caption: "Anthracite and warm timber island hub"
       },
       {
-        url: "/img/tile/closet-system.png",
+        url: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=80",
         alt: "Walk-in closet system with illuminated glass shelving",
         caption: "Bespoke dressing suite with dark walnut carcasses"
       }
@@ -205,7 +205,7 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80",
         alt: "Architectural ceiling and wall paneling installation",
         caption: "Minimalist ceiling cove with warm indirect illumination"
       }
@@ -247,12 +247,12 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
         alt: "Nova Velvet Custom Upholstered Bed",
         caption: "Custom bed set manufactured in our Karachi workshop"
       },
       {
-        url: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
         alt: "Liva Integrated Light Bed Set",
         caption: "Boucle bed with integrated warm LED nightstand paneling"
       }
@@ -299,7 +299,7 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+        url: "/images/product-marble-flooring.jpg",
         alt: "Marble and timber flooring transition",
         caption: "Seamless flush brass inlay between hardwood and stone"
       }
@@ -341,7 +341,7 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "/img/tile/home-decor.jpg",
+        url: "/img/outdoor/outdoor-estate-pool.jpg",
         alt: "Rooftop terrace and garden retreat",
         caption: "Evening rooftop lounge with warm illumination and planters"
       }
@@ -383,12 +383,12 @@ export const SERVICES: Service[] = [
     ],
     gallery: [
       {
-        url: "/images/hero-wooden-villa.jpg",
+        url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
         alt: "Architectural bungalow elevation and floor map",
         caption: "500 Sq.Yd DHA Phase 8 modern elevation design"
       },
       {
-        url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
         alt: "Contemporary villa architectural layout",
         caption: "3D architectural floor map and exterior flow"
       }

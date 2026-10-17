@@ -8,7 +8,7 @@ const WOODWORK_SPECIALTIES = [
     title: 'Solid Teak & Walnut Joinery',
     tag: 'Timber Mastery',
     description: 'We exclusively procure seasoned Grade-A Burmese teak, American walnut, and white oak. Kiln-dried to 8–10% moisture content to eliminate swelling, warping, and shrinkage in Pakistan’s coastal humidity.',
-    image: '/images/hero-wooden-villa.jpg',
+    image: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
     features: ['Hand-scraped grain matching', 'Traditional mortise & tenon joints', 'Matte Italian PU & natural oil finishes']
   },
   {
@@ -22,7 +22,7 @@ const WOODWORK_SPECIALTIES = [
     title: 'Engineered Wooden Ceilings & Beams',
     tag: 'Ceiling Architecture',
     description: 'Elevate your living room, double-height lobby, or master dining area with architectural timber rafters, coffered wooden grids, and warm wood-panelled ceilings with integrated indirect lighting.',
-    image: '/images/wooden-kitchen-ceiling.jpg',
+    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
     features: ['Structural aesthetic rafter beams', 'Integrated recessed spot & linear lighting', 'Termite-proof pressure-treated timber']
   },
   {

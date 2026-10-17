@@ -9,7 +9,7 @@ export const RenovationEstimateCTA: React.FC = () => {
     <section className="bg-[#141414] text-white py-16 sm:py-24 border-b border-[#2A2A2A] relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 pointer-events-none mix-blend-luminosity">
         <img
-          src="/images/hero-wooden-villa.jpg"
+          src="/assets/images/hero-villa.jpg"
           alt="Bungalow Renovation Karachi"
           className="w-full h-full object-cover"
         />

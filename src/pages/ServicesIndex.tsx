@@ -132,7 +132,7 @@ export const ServicesIndex: React.FC = () => {
 
             <div className="lg:col-span-5 aspect-4/3 overflow-hidden bg-stone-800">
               <img
-                src="/img/hero/hero-living-salon.jpg"
+                src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80"
                 alt="Turnkey Property Transformation"
                 className="w-full h-full object-cover"
               />

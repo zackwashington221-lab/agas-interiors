@@ -37,7 +37,7 @@ const NAV_SECTIONS: NavSection[] = [
     featured: {
       title: "Featured Monograph",
       caption: "DHA Phase 8 Contemporary Villa Turnkey Makeover",
-      image: "/images/hero-wooden-villa.jpg",
+      image: "/assets/images/projects/marble-villa.webp",
       href: "/projects"
     }
   },
@@ -54,7 +54,7 @@ const NAV_SECTIONS: NavSection[] = [
     featured: {
       title: "Master Architectural Blueprints",
       caption: "Precision 2D floor plans, 3D elevations, and authority submission sets",
-      image: "/images/hero-wooden-villa.jpg",
+      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
       href: "/services/architectural-house-plans"
     }
   },
@@ -71,7 +71,7 @@ const NAV_SECTIONS: NavSection[] = [
     featured: {
       title: "Full Turnkey Fitouts",
       caption: "Single accountable team from 3D plan to white-glove handover",
-      image: "/images/wooden-kitchen-ceiling.jpg",
+      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
       href: "/services"
     }
   },
@@ -88,7 +88,7 @@ const NAV_SECTIONS: NavSection[] = [
     featured: {
       title: "In-House Karachi Workshop",
       caption: "100% genuine hardwood joinery crafted by master carpenters",
-      image: "/images/wpc-fluted-wall.jpg",
+      image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80",
       href: "/services/kitchens-wardrobes-architectural-joinery"
     }
   },

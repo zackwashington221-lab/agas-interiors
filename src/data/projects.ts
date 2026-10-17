@@ -76,17 +76,17 @@ export const PROJECTS: Project[] = [
     completionYear: "2025",
     gallery: [
       {
-        url: "/img/tile/kitchen-furniture.jpg",
+        url: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80",
         alt: "Modern handleless kitchen in Clifton Penthouse",
         caption: "Nordika handleless modular kitchen with breakfast counter"
       },
       {
-        url: "/img/tile/closet-system.png",
+        url: "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=1200&q=80",
         alt: "Master walk-in closet in Clifton Penthouse",
         caption: "Custom illuminated glass wardrobe system"
       },
       {
-        url: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+        url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
         alt: "Living salon overlooking the coastline",
         caption: "Open living salon configured with low-profile bouclé seating"
       }
@@ -119,12 +119,12 @@ export const PROJECTS: Project[] = [
     completionYear: "2025",
     gallery: [
       {
-        url: "/img/tile/living-room-furniture.webp",
+        url: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80",
         alt: "Architectural ceiling and custom library millwork in Phase 6",
         caption: "Family lounge with custom rotating display millwork and acoustic paneling"
       },
       {
-        url: "/img/tile/bedroom-furniture.webp",
+        url: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
         alt: "Bespoke bedroom joinery detail",
         caption: "Minimalist bedside cabinetry and fluted woodwork"
       }
@@ -157,17 +157,17 @@ export const PROJECTS: Project[] = [
     completionYear: "2026",
     gallery: [
       {
-        url: "/images/hero-wooden-villa.jpg",
+        url: "/assets/images/projects/noor-residence.webp",
         alt: "Architectural 3D Elevation and Floor Plan Map",
         caption: "500 Sq.Yd DHA Phase 6 modern elevation and floor layout"
       },
       {
-        url: "/images/wooden-kitchen-ceiling.jpg",
+        url: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
         alt: "Renovated chef kitchen and wooden ceiling",
         caption: "Open-plan kitchen integrated with slatted wooden ceiling"
       },
       {
-        url: "/images/wpc-fluted-wall.jpg",
+        url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
         alt: "Fluted acoustic wood panelling in main lounge",
         caption: "Lounge with bespoke fluted wall and concealed doorway"
       }

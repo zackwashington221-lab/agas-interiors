@@ -27,7 +27,7 @@ const SECTORS: Sector[] = [
       'Imported Italian marble flooring & bathrooms',
       'Terrace gardens & poolside pergolas'
     ],
-    image: '/images/hero-wooden-villa.jpg',
+    image: '/assets/images/projects/marble-villa.webp',
     link: '/services/home-renovation'
   },
   {
@@ -42,7 +42,7 @@ const SECTORS: Sector[] = [
       'Acoustic fluted panelling & ceiling coves',
       'Turnkey MEP, HVAC & smart lighting'
     ],
-    image: '/images/master-bedroom-walnut.jpg',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
     link: '/services/interior-design'
   },
   {
@@ -57,7 +57,7 @@ const SECTORS: Sector[] = [
       'Ergonomic workstation pods & reception counters',
       'Fire-rated doors, data cabling & HVAC zoning'
     ],
-    image: '/images/wpc-fluted-wall.jpg',
+    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80',
     link: '/services/interior-design'
   },
   {
@@ -72,7 +72,7 @@ const SECTORS: Sector[] = [
       'Daily site supervision & video progress updates',
       '5-Year structural & woodwork guarantee'
     ],
-    image: '/images/wooden-kitchen-ceiling.jpg',
+    image: '/assets/images/projects/oak-house.webp',
     link: '/services/home-renovation'
   }
 ];
