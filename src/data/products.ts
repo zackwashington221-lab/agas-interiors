@@ -37,7 +37,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -83,7 +85,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -129,7 +133,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -175,7 +181,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -221,7 +229,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -267,7 +277,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505773278895-5efa7b11679a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -313,7 +325,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -359,7 +373,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -405,7 +421,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -451,7 +469,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -497,7 +517,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1505773278895-5efa7b11679a?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1505773278895-5efa7b11679a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -543,7 +565,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Sale",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1588046130717-0eb0c9a3ba15?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -589,7 +613,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -624,7 +650,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "aura-14",
-    "title": "Kappa Zen Ivory &amp; Charcoal Minimalist High-End Modular Kitchen",
+    "title": "Kappa Zen Ivory & Charcoal Minimalist High-End Modular Kitchen",
     "category": "Kitchen",
     "subcategory": "Modular Kitchen",
     "link": "/kappa-zen-ivory-charcoal-minimalist-high-end-modular-kitchen",
@@ -635,7 +661,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -681,7 +709,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -716,7 +746,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "aura-16",
-    "title": "Skyline Azure &amp; Oak Hub Luxury Contemporary Italian Modular Kitchen",
+    "title": "Skyline Azure & Oak Hub Luxury Contemporary Italian Modular Kitchen",
     "category": "Kitchen",
     "subcategory": "Modular Kitchen",
     "link": "/skyline-azure-oak-hub-luxury-contemporary-italian-modular-kitchen",
@@ -727,7 +757,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600488999201-95ff81347895?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -773,7 +805,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1497366672149-e5e4b4d34eb3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556909114-44e3e70034e2?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -808,7 +842,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "aura-18",
-    "title": "Thea Graphite &amp; Pearl Modular Kitchen",
+    "title": "Thea Graphite & Pearl Modular Kitchen",
     "category": "Kitchen",
     "subcategory": "Modular Kitchen",
     "link": "/thea-graphite-pearl-modular-kitchen",
@@ -819,7 +853,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556909211-36987daf7b4d?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -865,7 +901,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -911,7 +949,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1497366672149-e5e4b4d34eb3?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1497366672149-e5e4b4d34eb3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -957,7 +997,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1620086464194-5127366b51ea?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1620086464194-5127366b51ea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -992,7 +1034,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     "id": "aura-22",
-    "title": "Ambrine Tufted Velvet Bar &amp; Counter Stool",
+    "title": "Ambrine Tufted Velvet Bar & Counter Stool",
     "category": "Kitchen",
     "subcategory": "Bar Stools",
     "link": "/ambrine-tufted-velvet-velvet-bar-counter-stool",
@@ -1003,7 +1045,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Made to order",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Expertly handcrafted by AGAS Interiors master artisans. Built with kiln-dried solid hardwood framing, high-resilience foam padding, and bespoke upholstery tailored to modern residences in Pakistan.",
     "specifications": [
@@ -1049,7 +1093,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1095,7 +1141,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1141,7 +1189,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1187,7 +1237,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1233,7 +1285,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1279,7 +1333,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1325,7 +1381,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1534105615256-13940a56ff44?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1371,7 +1429,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595351475754-8a520e0bc3a3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1417,7 +1477,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1463,7 +1525,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1509,7 +1573,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1578500351865-d6c3706f46bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1555,7 +1621,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1601,7 +1669,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1647,7 +1717,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1693,7 +1765,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1534105615256-13940a56ff44?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1534105615256-13940a56ff44?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1739,7 +1813,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1595351475754-8a520e0bc3a3?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1595351475754-8a520e0bc3a3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551516594-56cb78394645?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1785,7 +1861,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1831,7 +1909,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1558882224-dda166733046?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1877,7 +1957,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1923,7 +2005,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -1969,7 +2053,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016520496-0cb37d8467a7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016546367-c27a0d56712e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2015,7 +2101,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1578500351865-d6c3706f46bc?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1578500351865-d6c3706f46bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2061,7 +2149,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2107,7 +2197,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2153,7 +2245,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2199,7 +2293,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2245,7 +2341,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598300056393-4aac492f4344?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2291,7 +2389,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2337,7 +2437,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1551516594-56cb78394645?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1551516594-56cb78394645?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2383,7 +2485,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556020685-ae41abfc9365?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2429,7 +2533,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2475,7 +2581,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1558882224-dda166733046?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1558882224-dda166733046?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550254478-ead40cc54513?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2521,7 +2629,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2567,7 +2677,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1534105615256-13940a56ff44?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2613,7 +2725,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595351475754-8a520e0bc3a3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2659,7 +2773,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Signature",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "Sculptural comfort meets architectural grace. Designed for expansive gathering spaces, featuring premium abrasion-resistant upholstery and reinforced dowelled joinery.",
     "specifications": [
@@ -2705,7 +2821,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2751,7 +2869,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2797,7 +2917,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2843,7 +2965,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1578500351865-d6c3706f46bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2889,7 +3013,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551516594-56cb78394645?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2935,7 +3061,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -2981,7 +3109,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016520496-0cb37d8467a7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3027,7 +3157,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3073,7 +3205,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3119,7 +3253,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3165,7 +3301,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3211,7 +3349,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3257,7 +3397,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3303,7 +3445,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3349,7 +3493,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1579656381226-5fc0f0100c3b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3395,7 +3541,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3441,7 +3589,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1598300056393-4aac492f4344?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1598300056393-4aac492f4344?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3487,7 +3637,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3533,7 +3685,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1578500351865-d6c3706f46bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3579,7 +3733,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551516594-56cb78394645?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560184897-ae75f418493e?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3625,7 +3781,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3671,7 +3829,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567016520496-0cb37d8467a7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3717,7 +3877,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582037928769-181f2644ecb7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3763,7 +3925,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583845112239-97ef1341b271?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3809,7 +3973,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3855,7 +4021,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3901,7 +4069,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3947,7 +4117,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -3993,7 +4165,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -4039,7 +4213,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1579656381226-5fc0f0100c3b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -4085,7 +4261,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530603907829-659ab5ec057b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -4131,7 +4309,9 @@ export const PRODUCTS: Product[] = [
     "badge": "Bespoke",
     "leadTime": "Delivered in 5\u201310 business days; made-to-order pieces in 15\u201330 days",
     "images": [
-      "https://images.unsplash.com/photo-1556909114-44e3e70034e2?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1556909114-44e3e70034e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=1200&q=80"
     ],
     "description": "A centerpiece for celebration. Hand-selected solid timber paired with brushed metallic accents or sintered stone surfaces.",
     "specifications": [
@@ -4178,7 +4358,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Handcrafted to order in 15\u201325 business days",
     "images": [
       "/img/outdoor/outdoor-hero.jpg",
-      "/img/outdoor/outdoor-villa.jpg"
+      "/img/outdoor/outdoor-villa.jpg",
+      "/img/outdoor/outdoor-patio-dining.jpg"
     ],
     "description": "Mastercrafted by AGAS Interiors using sustainably harvested Grade-A teak and high-performance weather-resistant Sunbrella fabrics designed specifically for rooftop terraces and garden courtyards.",
     "specifications": [
@@ -4219,7 +4400,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 15\u201320 business days",
     "images": [
       "/img/outdoor/outdoor-dining.jpg",
-      "/img/outdoor/outdoor-patio-dining.jpg"
+      "/img/outdoor/outdoor-patio-dining.jpg",
+      "/img/outdoor/outdoor-garden-terrace.jpg"
     ],
     "description": "An architectural 8-seater garden dining ensemble combining natural oiled teak slabs with handwoven polyolefin rope dining armchairs suited for outdoor entertaining.",
     "specifications": [
@@ -4259,7 +4441,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 15\u201320 business days",
     "images": [
       "/img/outdoor/outdoor-daybed.jpg",
-      "/img/outdoor/outdoor-poolside-cabana.jpg"
+      "/img/outdoor/outdoor-poolside-cabana.jpg",
+      "/img/outdoor/outdoor-estate-pool.jpg"
     ],
     "description": "A sanctuary for private villas and poolside terraces. Features an architectural aluminum canopy, weather-resistant adjustable shades, and plush dual lounging cushions.",
     "specifications": [
@@ -4298,7 +4481,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 7\u201314 business days",
     "images": [
       "/img/outdoor/outdoor-armchair.jpg",
-      "/img/outdoor/outdoor-armchair-detail.jpg"
+      "/img/outdoor/outdoor-armchair-detail.jpg",
+      "/images/garden-villa-oasis.jpg"
     ],
     "description": "Set of 2 handcrafted occasional outdoor armchairs featuring artisanal tactile rope weave on sculpted dark charcoal aluminum framing with water-resistant accent pillows.",
     "specifications": [
@@ -4333,7 +4517,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 10\u201314 business days",
     "images": [
       "/img/outdoor/outdoor-sun-loungers.jpg",
-      "/images/garden-rooftop-terrace.jpg"
+      "/images/garden-rooftop-terrace.jpg",
+      "/img/outdoor/outdoor-estate-pool.jpg"
     ],
     "description": "Pair of adjustable recline poolside loungers crafted with Grade-A Burmese teak framing, Batyline UV-resistant breathable mesh sling, and matching drinks pedestal table.",
     "specifications": [
@@ -4372,7 +4557,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Built to order in 18\u201325 business days",
     "images": [
       "/img/outdoor/outdoor-firepit.jpg",
-      "/images/garden-zen-courtyard.jpg"
+      "/images/garden-zen-courtyard.jpg",
+      "/img/outdoor/outdoor-garden-terrace.jpg"
     ],
     "description": "Comprehensive sunken courtyard lounge featuring modular marine-grade teak banquette seating, Sunbrella outdoor cushions, and a custom architectural linear fire table.",
     "specifications": [
@@ -4411,7 +4597,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 12\u201318 business days",
     "images": [
       "/img/outdoor/outdoor-pergola-swing.jpg",
-      "/images/garden-villa-oasis.jpg"
+      "/images/garden-villa-oasis.jpg",
+      "/img/outdoor/outdoor-villa-patio.jpg"
     ],
     "description": "Bespoke hanging porch daybed swing with marine rope suspension, solid teak frame, deep antimicrobial waterproof mattress, and matching bolster cushions.",
     "specifications": [
@@ -4450,7 +4637,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Delivered in 7\u201310 business days",
     "images": [
       "/img/outdoor/outdoor-coffee-table.jpg",
-      "/assets/images/materials/stone.webp"
+      "/assets/images/materials/stone.webp",
+      "/assets/images/materials/wood.webp"
     ],
     "description": "Low architectural statement coffee table pairing solid teak timber base joinery with an unpolished honed Roman travertine stone top insert.",
     "specifications": [
@@ -4485,7 +4673,8 @@ export const PRODUCTS: Product[] = [
     "leadTime": "Built to order in 14\u201320 business days",
     "images": [
       "/img/outdoor/outdoor-bar-counter.jpg",
-      "/img/outdoor/outdoor-villa-patio.jpg"
+      "/img/outdoor/outdoor-villa-patio.jpg",
+      "/assets/images/materials/marble.webp"
     ],
     "description": "Architectural outdoor beverage station and waterfall bar island complete with 4 solid teak bar stools featuring woven Olefin cord backs.",
     "specifications": [

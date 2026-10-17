@@ -120,6 +120,7 @@ function AgasAppShell() {
 
           {/* Product Detail Route */}
           <Route path="/product/:id" element={<ProductDetailPage />} />
+          <Route path="/products/:id" element={<ProductDetailPage />} />
           <Route path="/:slug" element={<ProductDetailPage />} />
         </Routes>
       </main>

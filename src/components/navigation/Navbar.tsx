@@ -93,10 +93,10 @@ const NAV_SECTIONS: NavSection[] = [
     }
   },
   {
-    title: "The Atelier (Products)",
+    title: "The Atelier",
     href: "/products",
     items: [
-      { title: "All Bespoke Pieces (50+)", href: "/products", badge: "Atelier" },
+      { title: "All Bespoke Pieces (99+)", href: "/products", badge: "Atelier" },
       { title: "Living Room Suites", href: "/living-room-furniture", description: "Sectionals, bouclé chairs & marble tables" },
       { title: "Bedroom Collections", href: "/bedroom-furniture", description: "Bespoke beds, benches & dressing consoles" },
       { title: "Dining Sets", href: "/dining-room-furniture", description: "Calacatta stone & solid teak dining tables" },
@@ -111,12 +111,8 @@ const NAV_SECTIONS: NavSection[] = [
     }
   },
   {
-    title: "Our Process",
-    href: "/#process"
-  },
-  {
     title: "The Studio",
-    href: "/about"
+    href: "/about-us"
   },
   {
     title: "Contact",
@@ -136,7 +132,7 @@ export const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 40);
+      setScrolled(window.scrollY > 30);
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
@@ -150,112 +146,31 @@ export const Navbar: React.FC = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-[#FBF6F3]/95 backdrop-blur-md transition-all duration-300 border-b border-[#E8E0D7] ${
-        scrolled ? 'shadow-sm' : ''
+      className={`sticky top-0 z-50 bg-[#FAF9F7]/95 backdrop-blur-md transition-all duration-300 border-b border-[#E8E0D7] ${
+        scrolled ? 'shadow-md py-2.5' : 'py-3.5 sm:py-4'
       }`}
       onMouseLeave={() => setActiveSection(null)}
     >
-      {/* 1. Desktop Secondary Utility Bar */}
-      <div className="hidden lg:block border-b border-[#E8E0D7] bg-[#F5EFEB]/70">
-        <div className="mx-auto flex max-w-[1680px] items-center justify-between px-5 sm:px-8">
-          <div className="flex items-center gap-1">
-            <Link
-              to="/"
-              className="px-3.5 py-2 text-[0.6875rem] tracking-[0.1em] uppercase transition-colors bg-[#FBF6F3] font-semibold text-[#1A1A1A]"
-            >
-              AGAS Interiors
-            </Link>
-            <span className="text-[0.6875rem] tracking-[0.08em] text-stone-500 uppercase px-3 py-2">
-              Turnkey Renovations &bull; Bungalows &bull; Apartments &bull; Corporate Offices &bull; Master Woodwork
-            </span>
-          </div>
-
-          <div className="flex items-center gap-4 text-[0.6875rem] text-stone-600">
-            <a
-              href="https://wa.me/923158739625?text=Hello%20AGAS%20Interiors%2C%20I%20would%20like%20to%20inquire%20about%20a%20renovation%20estimate."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#825e2d] transition-colors flex items-center gap-1"
-            >
-              <span>Site Assessment WhatsApp:</span>
-              <span className="font-semibold text-stone-900">0315 8739625</span>
-            </a>
-            <span className="text-stone-300">|</span>
-            <Link to="/contact" className="hover:text-[#825e2d] transition-colors font-semibold uppercase">
-              Karachi Showroom
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* 2. Main Navigation Header */}
-      <div className="mx-auto grid h-16 max-w-[1680px] grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:h-20 sm:px-8">
-        {/* Left Side: Mobile Menu Button & Desktop Search */}
-        <div className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-[1680px] items-center justify-between gap-4 px-4 sm:px-8">
+        {/* Left Side: Mobile Menu Button & Studio Logo */}
+        <div className="flex items-center gap-3 sm:gap-4 shrink-0">
           <button
             type="button"
             aria-label="Toggle navigation menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="-ml-2 grid h-11 w-11 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
+            className="-ml-1.5 grid h-10 w-10 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
 
-          <button
-            type="button"
-            onClick={() => setIsSearchOpen(true)}
-            className="hidden lg:flex min-h-10 items-center gap-2.5 border-b border-stone-400 pb-1 text-xs tracking-[0.08em] text-stone-600 uppercase transition-colors hover:border-[#1A1A1A] hover:text-[#1A1A1A]"
-          >
-            <Search className="w-4 h-4" />
-            <span>Search Portfolio &amp; Pieces</span>
-          </button>
+          <Link to="/" className="flex items-center">
+            <AuraLogo size="md" />
+          </Link>
         </div>
 
-        {/* Center: Authentic Logo */}
-        <div className="flex items-center justify-center">
-          <AuraLogo size="md" />
-        </div>
-
-        {/* Right Side: Primary High-Converting CTAs */}
-        <div className="flex items-center justify-end gap-2 sm:gap-3">
-          <button
-            type="button"
-            aria-label="Search"
-            onClick={() => setIsSearchOpen(true)}
-            className="grid h-10 w-10 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
-          >
-            <Search className="w-5 h-5" />
-          </button>
-
-          {/* Consultation CTA */}
-          <button
-            type="button"
-            onClick={() => openProjectEnquiry()}
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#1A1A1A] hover:bg-[#C9A96A] text-white shadow-xs transition-colors rounded-none"
-          >
-            <MessageSquare className="w-3.5 h-3.5 text-[#C9A96A]" />
-            <span className="hidden sm:inline">Book Site Consultation</span>
-            <span className="sm:hidden">Consult</span>
-          </button>
-
-          {/* Quick Direct WhatsApp Button */}
-          <a
-            href="https://wa.me/923158739625?text=Hello%20AGAS%20Interiors%2C%20I%20am%20interested%20in%20renovation%20and%20woodwork."
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="WhatsApp Us"
-            className="hidden xl:inline-flex items-center gap-1.5 px-3.5 py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#25D366] hover:bg-[#20bd5a] text-white transition-colors"
-          >
-            <PhoneCall className="w-3.5 h-3.5" />
-            <span>0315 8739625</span>
-          </a>
-        </div>
-      </div>
-
-      {/* 3. Horizontal Architectural Navigation Menu Bar (Desktop) */}
-      <div className="relative hidden border-t border-[#E8E0D7] lg:block">
-        <nav aria-label="Main architectural navigation" className="mx-auto max-w-[1680px] px-5 sm:px-8">
-          <ul className="flex items-center justify-center gap-1 xl:gap-2">
+        {/* Center: Clean Architectural Navigation Menu Links (Desktop) */}
+        <nav aria-label="Main architectural navigation" className="hidden lg:flex items-center">
+          <ul className="flex items-center gap-1 xl:gap-2">
             {NAV_SECTIONS.map(section => {
               const hasDropdown = section.items && section.items.length > 0;
               const isActive = activeSection?.title === section.title;
@@ -268,10 +183,10 @@ export const Navbar: React.FC = () => {
                 >
                   <Link
                     to={section.href}
-                    className={`relative flex items-center gap-1 px-3.5 py-3 text-[0.75rem] font-semibold tracking-[0.1em] uppercase transition-colors xl:px-4.5 ${
+                    className={`relative flex items-center gap-1 px-3 py-2 text-[0.75rem] font-semibold tracking-[0.08em] uppercase transition-colors rounded-md ${
                       isActive
-                        ? 'text-[#825e2d] border-b-2 border-[#825e2d]'
-                        : 'text-[#1A1A1A] hover:text-[#825e2d]'
+                        ? 'text-[#825e2d] bg-[#F2ECE4]'
+                        : 'text-[#1A1A1A] hover:text-[#825e2d] hover:bg-[#F5EFEB]/70'
                     }`}
                   >
                     <span>{section.title}</span>
@@ -285,96 +200,134 @@ export const Navbar: React.FC = () => {
           </ul>
         </nav>
 
-        {/* 4. Architectural Dropdown Panel */}
-        {activeSection && activeSection.items && (
-          <div
-            className="absolute left-0 right-0 top-full bg-[#FAF9F7] border-b border-[#E8E0D7] shadow-2xl transition-all duration-300 z-50"
-            onMouseEnter={() => setActiveSection(activeSection)}
-            onMouseLeave={() => setActiveSection(null)}
+        {/* Right Side: Clean Search, Consultation CTA & WhatsApp */}
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <button
+            type="button"
+            aria-label="Search Portfolio & Pieces"
+            onClick={() => setIsSearchOpen(true)}
+            className="flex items-center gap-1.5 p-2 sm:px-2.5 sm:py-2 text-stone-600 hover:text-[#1A1A1A] rounded-md transition-colors"
           >
-            <div className="mx-auto max-w-[1400px] px-8 py-8 grid grid-cols-12 gap-8">
-              {/* Items List */}
-              <div className={activeSection.featured ? "col-span-8" : "col-span-12"}>
-                <div className="flex items-center justify-between pb-3 border-b border-[#E8E0D7] mb-6">
-                  <h3 className="text-xs font-semibold tracking-[0.14em] uppercase text-[#825e2d]">
-                    {activeSection.title} Overview
-                  </h3>
-                  <Link
-                    to={activeSection.href}
-                    className="text-xs font-medium text-stone-600 hover:text-black inline-flex items-center gap-1 group"
-                  >
-                    View All {activeSection.title}
-                    <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
-                  </Link>
-                </div>
+            <Search className="w-4 h-4" />
+            <span className="hidden xl:inline text-xs uppercase tracking-wider font-medium">Search</span>
+          </button>
 
-                <div className="grid grid-cols-2 gap-y-5 gap-x-8">
-                  {activeSection.items.map(item => (
-                    <Link
-                      key={item.title}
-                      to={item.href}
-                      className="group block p-2 -m-2 rounded-sm hover:bg-[#F2ECE4] transition-colors"
-                    >
-                      <div className="flex items-center justify-between">
-                        <span className="text-[0.8125rem] font-medium text-stone-900 group-hover:text-[#825e2d] transition-colors">
-                          {item.title}
-                        </span>
-                        {item.badge && (
-                          <span className="text-[0.625rem] font-semibold uppercase tracking-wider px-1.5 py-0.5 bg-[#825e2d]/10 text-[#825e2d]">
-                            {item.badge}
-                          </span>
-                        )}
-                      </div>
-                      {item.description && (
-                        <p className="text-[0.7rem] text-stone-500 font-light mt-0.5 line-clamp-1">
-                          {item.description}
-                        </p>
-                      )}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+          {/* Consultation CTA */}
+          <button
+            type="button"
+            onClick={() => openProjectEnquiry()}
+            className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#1A1A1A] hover:bg-[#C9A96A] text-white transition-all rounded-md shadow-xs"
+          >
+            <MessageSquare className="w-3.5 h-3.5 text-[#C9A96A]" />
+            <span className="hidden sm:inline">Book Consultation</span>
+            <span className="sm:hidden">Consult</span>
+          </button>
 
-              {/* Featured Feature Card */}
-              {activeSection.featured && (
-                <div className="col-span-4 border-l border-[#E8E0D7] pl-8 flex flex-col justify-between">
-                  <Link to={activeSection.featured.href} className="group block overflow-hidden bg-stone-900 rounded-sm">
-                    <div className="aspect-16/10 overflow-hidden relative">
-                      <img
-                        src={activeSection.featured.image}
-                        alt={activeSection.featured.title}
-                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                      <div className="absolute bottom-3 left-3 right-3 text-white">
-                        <p className="text-[0.625rem] font-semibold tracking-[0.14em] uppercase text-[#E8D7B8]">
-                          {activeSection.featured.title}
-                        </p>
-                        <h4 className="text-xs font-medium text-white mt-0.5 leading-snug">
-                          {activeSection.featured.caption}
-                        </h4>
-                      </div>
-                    </div>
-                  </Link>
-                  <button
-                    onClick={() => {
-                      setActiveSection(null);
-                      openProjectEnquiry();
-                    }}
-                    className="mt-4 w-full py-2.5 bg-[#1A1A1A] hover:bg-[#825e2d] text-white text-[0.6875rem] font-semibold uppercase tracking-[0.1em] transition-colors text-center"
-                  >
-                    Request Consultation
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
+          {/* Quick Direct WhatsApp Button */}
+          <a
+            href="https://wa.me/923158739625?text=Hello%20AGAS%20Interiors%2C%20I%20am%20interested%20in%20renovation%20and%20woodwork."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp Us"
+            className="hidden md:inline-flex items-center gap-1.5 px-3 sm:px-3.5 py-2 sm:py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-md transition-colors shadow-xs"
+          >
+            <PhoneCall className="w-3.5 h-3.5" />
+            <span>0315 8739625</span>
+          </a>
+        </div>
       </div>
 
-      {/* 5. Mobile Drawer Menu */}
+      {/* Architectural Dropdown Panel */}
+      {activeSection && activeSection.items && (
+        <div
+          className="absolute left-0 right-0 top-full bg-[#FAF9F7] border-b border-[#E8E0D7] shadow-2xl transition-all duration-300 z-50"
+          onMouseEnter={() => setActiveSection(activeSection)}
+          onMouseLeave={() => setActiveSection(null)}
+        >
+          <div className="mx-auto max-w-[1400px] px-8 py-8 grid grid-cols-12 gap-8">
+            {/* Items List */}
+            <div className={activeSection.featured ? "col-span-8" : "col-span-12"}>
+              <div className="flex items-center justify-between pb-3 border-b border-[#E8E0D7] mb-6">
+                <h3 className="text-xs font-semibold tracking-[0.14em] uppercase text-[#825e2d]">
+                  {activeSection.title} Overview
+                </h3>
+                <Link
+                  to={activeSection.href}
+                  className="text-xs font-medium text-stone-600 hover:text-black inline-flex items-center gap-1 group"
+                >
+                  View All {activeSection.title}
+                  <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-2 gap-y-5 gap-x-8">
+                {activeSection.items.map(item => (
+                  <Link
+                    key={item.title}
+                    to={item.href}
+                    className="group block p-2 -m-2 rounded-sm hover:bg-[#F2ECE4] transition-colors"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-[0.8125rem] font-medium text-stone-900 group-hover:text-[#825e2d] transition-colors">
+                        {item.title}
+                      </span>
+                      {item.badge && (
+                        <span className="text-[0.625rem] font-semibold uppercase tracking-wider px-1.5 py-0.5 bg-[#825e2d]/10 text-[#825e2d] rounded">
+                          {item.badge}
+                        </span>
+                      )}
+                    </div>
+                    {item.description && (
+                      <p className="text-[0.7rem] text-stone-500 font-light mt-0.5 line-clamp-1">
+                        {item.description}
+                      </p>
+                    )}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Featured Feature Card */}
+            {activeSection.featured && (
+              <div className="col-span-4 border-l border-[#E8E0D7] pl-8 flex flex-col justify-between">
+                <Link to={activeSection.featured.href} className="group block overflow-hidden bg-stone-900 rounded-lg">
+                  <div className="aspect-16/10 overflow-hidden relative">
+                    <img
+                      src={activeSection.featured.image}
+                      alt={activeSection.featured.title}
+                      referrerPolicy="no-referrer"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                    <div className="absolute bottom-3 left-3 right-3 text-white">
+                      <p className="text-[0.625rem] font-semibold tracking-[0.14em] uppercase text-[#E8D7B8]">
+                        {activeSection.featured.title}
+                      </p>
+                      <h4 className="text-xs font-medium text-white mt-0.5 leading-snug">
+                        {activeSection.featured.caption}
+                      </h4>
+                    </div>
+                  </div>
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setActiveSection(null);
+                    openProjectEnquiry();
+                  }}
+                  className="mt-4 w-full py-2.5 bg-[#1A1A1A] hover:bg-[#825e2d] text-white text-[0.6875rem] font-semibold uppercase tracking-[0.1em] transition-colors text-center rounded-md"
+                >
+                  Request Consultation
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Mobile Drawer Menu */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 top-16 z-50 bg-black/40 backdrop-blur-xs lg:hidden">
+        <div className="fixed inset-0 top-[60px] z-50 bg-black/50 backdrop-blur-xs lg:hidden">
           <div className="flex h-full w-[85%] max-w-sm flex-col justify-between bg-[#FBF6F3] p-6 shadow-2xl overflow-y-auto">
             <div>
               {/* Header inside mobile drawer */}
@@ -383,6 +336,7 @@ export const Navbar: React.FC = () => {
                   Navigation
                 </span>
                 <button
+                  type="button"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="p-1 text-stone-600 hover:text-black"
                 >
@@ -447,7 +401,7 @@ export const Navbar: React.FC = () => {
                     setIsMobileMenuOpen(false);
                     openProjectEnquiry();
                   }}
-                  className="w-full py-3 px-4 bg-[#1A1A1A] hover:bg-[#825e2d] text-white text-xs font-semibold uppercase tracking-[0.1em] text-center transition-colors"
+                  className="w-full py-3 px-4 bg-[#1A1A1A] hover:bg-[#825e2d] text-white text-xs font-semibold uppercase tracking-[0.1em] text-center transition-colors rounded-md"
                 >
                   Book Site Visit &amp; Estimate
                 </button>
@@ -455,7 +409,7 @@ export const Navbar: React.FC = () => {
                   href="https://wa.me/923158739625"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-2.5 px-4 bg-[#25D366] text-white text-xs font-semibold uppercase tracking-[0.1em] text-center flex items-center justify-center gap-1.5"
+                  className="w-full py-2.5 px-4 bg-[#25D366] text-white text-xs font-semibold uppercase tracking-[0.1em] text-center flex items-center justify-center gap-1.5 rounded-md"
                 >
                   <PhoneCall className="w-3.5 h-3.5" />
                   <span>WhatsApp: 0315 8739625</span>
@@ -466,7 +420,7 @@ export const Navbar: React.FC = () => {
             {/* Mobile Footer */}
             <div className="pt-6 border-t border-[#E8E0D7] text-xs text-stone-500 mt-6">
               <p className="font-semibold text-stone-800">AGAS Interiors &bull; Studio &amp; Workshop</p>
-              <p className="mt-0.5">Shop 2, Plot 17-C, Khayaban-e-Sehar, Phase 7, D.H.A., Karachi</p>
+              <p className="mt-0.5 text-[0.6875rem]">Shop 2, Plot 17-C, Khayaban-e-Sehar, Phase 7, D.H.A., Karachi</p>
             </div>
           </div>
         </div>

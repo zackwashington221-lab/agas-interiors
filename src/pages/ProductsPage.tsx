@@ -105,7 +105,7 @@ export const ProductsPage: React.FC = () => {
       </section>
 
       {/* 2. Filter Navigation Bar */}
-      <section className="sticky top-16 z-30 bg-[#FAF9F7]/95 backdrop-blur-md border-b border-[#E8E0D7] py-4 transition-all shadow-xs">
+      <section className="bg-[#F5EFEB] border-b border-[#E8E0D7] py-6 shadow-xs">
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
           {/* Main Category Pills */}
           <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
