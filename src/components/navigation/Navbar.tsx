@@ -147,30 +147,68 @@ export const Navbar: React.FC = () => {
   return (
     <header
       className={`sticky top-0 z-50 bg-[#FAF9F7]/95 backdrop-blur-md transition-all duration-300 border-b border-[#E8E0D7] ${
-        scrolled ? 'shadow-md py-2.5' : 'py-3.5 sm:py-4'
+        scrolled ? 'shadow-md' : ''
       }`}
       onMouseLeave={() => setActiveSection(null)}
     >
-      <div className="mx-auto flex max-w-[1680px] items-center justify-between gap-4 px-4 sm:px-8">
-        {/* Left Side: Mobile Menu Button & Studio Logo */}
-        <div className="flex items-center gap-3 sm:gap-4 shrink-0">
+      {/* 1. Main Architectural Header Bar */}
+      <div className="mx-auto grid h-16 max-w-[1680px] grid-cols-[1fr_auto_1fr] items-center gap-3 px-4 sm:h-20 sm:px-8">
+        {/* Left Side: Mobile Menu Button & Desktop Search */}
+        <div className="flex items-center gap-3">
           <button
             type="button"
             aria-label="Toggle navigation menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="-ml-1.5 grid h-10 w-10 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
+            className="-ml-2 grid h-11 w-11 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
           >
-            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
 
+          <button
+            type="button"
+            onClick={() => setIsSearchOpen(true)}
+            className="hidden lg:flex min-h-10 items-center gap-2.5 border-b border-stone-300 pb-1 text-xs tracking-[0.08em] text-stone-600 uppercase transition-colors hover:border-[#1A1A1A] hover:text-[#1A1A1A]"
+          >
+            <Search className="w-4 h-4 text-stone-500" />
+            <span>Search Portfolio, Plans &amp; Atelier</span>
+          </button>
+        </div>
+
+        {/* Center: Authentic Brand Logo */}
+        <div className="flex items-center justify-center">
           <Link to="/" className="flex items-center">
             <AuraLogo size="md" />
           </Link>
         </div>
 
-        {/* Center: Clean Architectural Navigation Menu Links (Desktop) */}
-        <nav aria-label="Main architectural navigation" className="hidden lg:flex items-center">
-          <ul className="flex items-center gap-1 xl:gap-2">
+        {/* Right Side: Consultation CTA (No phone button) */}
+        <div className="flex items-center justify-end gap-2 sm:gap-3">
+          <button
+            type="button"
+            aria-label="Search"
+            onClick={() => setIsSearchOpen(true)}
+            className="grid h-10 w-10 place-items-center text-[#1A1A1A] transition-colors hover:text-[#C9A96A] lg:hidden"
+          >
+            <Search className="w-5 h-5" />
+          </button>
+
+          {/* Book Consultation CTA Button */}
+          <button
+            type="button"
+            onClick={() => openProjectEnquiry()}
+            className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 text-[0.6875rem] font-semibold tracking-[0.1em] uppercase bg-[#1A1A1A] hover:bg-[#825e2d] text-white shadow-xs transition-colors rounded-none"
+          >
+            <MessageSquare className="w-3.5 h-3.5 text-[#C9A96A]" />
+            <span className="hidden sm:inline">Book Consultation</span>
+            <span className="sm:hidden">Consult</span>
+          </button>
+        </div>
+      </div>
+
+      {/* 2. Horizontal Architectural Navigation Menu Bar (Desktop) */}
+      <div className="relative hidden border-t border-[#E8E0D7] lg:block bg-[#FAF9F7]">
+        <nav aria-label="Main architectural navigation" className="mx-auto max-w-[1680px] px-5 sm:px-8">
+          <ul className="flex items-center justify-center gap-1 xl:gap-2">
             {NAV_SECTIONS.map(section => {
               const hasDropdown = section.items && section.items.length > 0;
               const isActive = activeSection?.title === section.title;
@@ -178,15 +216,15 @@ export const Navbar: React.FC = () => {
               return (
                 <li
                   key={section.title}
-                  onMouseEnter={() => hasDropdown ? setActiveSection(section) : setActiveSection(null)}
+                  onMouseEnter={() => (hasDropdown ? setActiveSection(section) : setActiveSection(null))}
                   className="relative"
                 >
                   <Link
                     to={section.href}
-                    className={`relative flex items-center gap-1 px-3 py-2 text-[0.75rem] font-semibold tracking-[0.08em] uppercase transition-colors rounded-md ${
+                    className={`relative flex items-center gap-1.5 px-4 py-3 text-[0.75rem] font-semibold tracking-[0.1em] uppercase transition-colors xl:px-5 ${
                       isActive
-                        ? 'text-[#825e2d] bg-[#F2ECE4]'
-                        : 'text-[#1A1A1A] hover:text-[#825e2d] hover:bg-[#F5EFEB]/70'
+                        ? 'text-[#825e2d] border-b-2 border-[#825e2d]'
+                        : 'text-[#1A1A1A] hover:text-[#825e2d]'
                     }`}
                   >
                     <span>{section.title}</span>
@@ -200,50 +238,13 @@ export const Navbar: React.FC = () => {
           </ul>
         </nav>
 
-        {/* Right Side: Clean Search, Consultation CTA & WhatsApp */}
-        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          <button
-            type="button"
-            aria-label="Search Portfolio & Pieces"
-            onClick={() => setIsSearchOpen(true)}
-            className="flex items-center gap-1.5 p-2 sm:px-2.5 sm:py-2 text-stone-600 hover:text-[#1A1A1A] rounded-md transition-colors"
+        {/* 3. Architectural Dropdown Panel */}
+        {activeSection && activeSection.items && (
+          <div
+            className="absolute left-0 right-0 top-full bg-[#FAF9F7] border-b border-[#E8E0D7] shadow-2xl transition-all duration-300 z-50"
+            onMouseEnter={() => setActiveSection(activeSection)}
+            onMouseLeave={() => setActiveSection(null)}
           >
-            <Search className="w-4 h-4" />
-            <span className="hidden xl:inline text-xs uppercase tracking-wider font-medium">Search</span>
-          </button>
-
-          {/* Consultation CTA */}
-          <button
-            type="button"
-            onClick={() => openProjectEnquiry()}
-            className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 sm:py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#1A1A1A] hover:bg-[#C9A96A] text-white transition-all rounded-md shadow-xs"
-          >
-            <MessageSquare className="w-3.5 h-3.5 text-[#C9A96A]" />
-            <span className="hidden sm:inline">Book Consultation</span>
-            <span className="sm:hidden">Consult</span>
-          </button>
-
-          {/* Quick Direct WhatsApp Button */}
-          <a
-            href="https://wa.me/923158739625?text=Hello%20AGAS%20Interiors%2C%20I%20am%20interested%20in%20renovation%20and%20woodwork."
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="WhatsApp Us"
-            className="hidden md:inline-flex items-center gap-1.5 px-3 sm:px-3.5 py-2 sm:py-2.5 text-[0.6875rem] font-semibold tracking-[0.08em] uppercase bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-md transition-colors shadow-xs"
-          >
-            <PhoneCall className="w-3.5 h-3.5" />
-            <span>0315 8739625</span>
-          </a>
-        </div>
-      </div>
-
-      {/* Architectural Dropdown Panel */}
-      {activeSection && activeSection.items && (
-        <div
-          className="absolute left-0 right-0 top-full bg-[#FAF9F7] border-b border-[#E8E0D7] shadow-2xl transition-all duration-300 z-50"
-          onMouseEnter={() => setActiveSection(activeSection)}
-          onMouseLeave={() => setActiveSection(null)}
-        >
           <div className="mx-auto max-w-[1400px] px-8 py-8 grid grid-cols-12 gap-8">
             {/* Items List */}
             <div className={activeSection.featured ? "col-span-8" : "col-span-12"}>
@@ -324,6 +325,7 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
       )}
+      </div>
 
       {/* Mobile Drawer Menu */}
       {isMobileMenuOpen && (

@@ -30,7 +30,7 @@ export const ThankYou: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#FAF9F7] min-h-screen py-16 lg:py-24">
+    <div className="bg-[#FAF9F7] py-16 lg:py-24">
       <div className="mx-auto max-w-[800px] px-5 sm:px-8 text-center">
         {/* Success Icon */}
         <div className="w-16 h-16 rounded-full bg-[#806B54]/10 text-[#806B54] mx-auto flex items-center justify-center mb-6">

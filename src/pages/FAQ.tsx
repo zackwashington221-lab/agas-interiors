@@ -65,7 +65,7 @@ export const FAQ: React.FC = () => {
   const filtered = selectedCat === 'All' ? FAQS : FAQS.filter(f => f.cat === selectedCat);
 
   return (
-    <div className="bg-[#faf9f7] min-h-screen py-12 lg:py-16">
+    <div className="bg-[#faf9f7] py-12 lg:py-16">
       <div className="mx-auto max-w-[1000px] px-5 sm:px-8">
         <div className="text-center max-w-xl mx-auto mb-12">
           <span className="eyebrow text-[#825e2d]">Client Assistance</span>

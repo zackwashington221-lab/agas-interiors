@@ -7,7 +7,7 @@ export const About: React.FC = () => {
   const { setIsConsultationOpen } = useCart();
 
   return (
-    <div className="bg-[#faf9f7] min-h-screen py-12 lg:py-20">
+    <div className="bg-[#faf9f7] py-12 lg:py-20">
       <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
         {/* Hero */}
         <div className="max-w-3xl mx-auto text-center mb-16">

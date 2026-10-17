@@ -14,6 +14,7 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { ProductCard } from '../components/product/ProductCard';
+import { optimizeImage, preloadImages } from '../utils/imageOptimizer';
 
 export const ProductDetailPage: React.FC = () => {
   const { slug, id } = useParams();
@@ -39,6 +40,9 @@ export const ProductDetailPage: React.FC = () => {
     setSelectedSize(product.sizes[0] || 'Standard');
     setSelectedFinish(product.finishes[0] || 'Standard');
     setQty(1);
+
+    // Instant background preloading for all gallery images
+    preloadImages(product.images, 1000, 80);
   }, [product]);
 
   const handlePrevImg = () => {
@@ -78,9 +82,11 @@ export const ProductDetailPage: React.FC = () => {
             {/* Main Stage Image */}
             <div className="relative aspect-4/5 sm:aspect-square lg:aspect-4/5 overflow-hidden bg-stone-200 rounded-2xl border border-stone-200 shadow-md group">
               <img
-                src={product.images[selectedImg] || product.images[0]}
+                src={optimizeImage(product.images[selectedImg] || product.images[0], 1000, 80)}
                 alt={`${product.title} - angle ${selectedImg + 1}`}
                 referrerPolicy="no-referrer"
+                loading="eager"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
               />
 
@@ -139,9 +145,11 @@ export const ProductDetailPage: React.FC = () => {
                     }`}
                   >
                     <img
-                      src={img}
+                      src={optimizeImage(img, 240, 65)}
                       alt={`${product.title} preview ${i + 1}`}
                       referrerPolicy="no-referrer"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover"
                     />
                     <span className="absolute bottom-1 right-1 bg-black/70 text-[0.5625rem] text-white px-1.5 py-0.5 rounded">

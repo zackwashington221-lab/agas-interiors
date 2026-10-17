@@ -63,8 +63,11 @@ export const ProductsPage: React.FC = () => {
       <section className="relative bg-[#1A1A1A] text-white py-16 sm:py-24 border-b border-[#2E2E2E] overflow-hidden">
         <div className="absolute inset-0 opacity-15 mix-blend-luminosity pointer-events-none">
           <img
-            src="https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1600&q=80"
+            src="https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1200&q=70"
             alt="AGAS Woodwork Atelier"
+            referrerPolicy="no-referrer"
+            loading="eager"
+            decoding="async"
             className="w-full h-full object-cover"
           />
         </div>

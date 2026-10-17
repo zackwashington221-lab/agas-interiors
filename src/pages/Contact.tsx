@@ -19,7 +19,7 @@ export const Contact: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#faf9f7] min-h-screen py-12 lg:py-16">
+    <div className="bg-[#faf9f7] py-12 lg:py-16">
       <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
         {/* Title */}
         <div className="max-w-2xl mb-12">

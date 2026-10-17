@@ -2,7 +2,7 @@ import React from 'react';
 
 export const TermsOfSale: React.FC = () => {
   return (
-    <div className="bg-[#faf9f7] min-h-screen py-12 lg:py-20">
+    <div className="bg-[#faf9f7] py-12 lg:py-20">
       <div className="mx-auto max-w-[900px] px-5 sm:px-8">
         <span className="eyebrow text-[#825e2d]">Client Terms</span>
         <h1 className="display-l text-[#1a1a1a] mt-2 font-medium">
