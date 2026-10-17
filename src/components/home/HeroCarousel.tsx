@@ -16,33 +16,34 @@ interface Slide {
 
 const HERO_SLIDES: Slide[] = [
   {
-    label: "Luxury Furniture & Interior Architecture in Pakistan",
-    title: "A Lifetime Begins Here",
-    description: "Beds, side tables and seating for the room a couple starts out in.",
-    image: "/img/hero/hero-bedroom-bespoke.jpg",
-    primaryBtnText: "Explore Collection",
-    primaryBtnLink: "/bedroom-furniture",
-    secondaryBtnText: "Visit Showroom",
-    secondaryBtnLink: "/contact"
-  },
-  {
-    label: "Warm Modern Architectural Living",
-    title: "Splendore Living Suite",
-    description: "Sectionals and sofa sets with the presence to anchor a room, in velvets and bouclés chosen to wear well in daily use.",
-    image: "/img/hero/hero-living-salon.jpg",
-    primaryBtnText: "Explore Living Room",
-    primaryBtnLink: "/living-room-furniture",
-    secondaryBtnText: "Free Design Consultation",
+    label: "Turnkey Interior Architecture & Renovations",
+    title: "Transforming Luxury Bungalows, Apartments & Corporate Sites",
+    description: "From structural remodelling in DHA and Clifton to turnkey corporate executive offices, AGAS Interiors delivers end-to-end renovations backed by our in-house Karachi timber atelier.",
+    image: "/images/hero-wooden-villa.jpg",
+    primaryBtnText: "Book Site Consultation",
+    primaryBtnLink: "/contact",
+    secondaryBtnText: "Explore Projects",
+    secondaryBtnLink: "/projects",
     isConsultationBtn: true
   },
   {
-    label: "Bespoke Italian Precision",
-    title: "Nordika Modular Kitchens",
-    description: "Modular kitchens planned around your measurements rather than a standard carcass size, with counter seating to match.",
-    image: "/img/hero/hero-modular-kitchen.jpg",
-    primaryBtnText: "Discover Kitchens",
-    primaryBtnLink: "/kitchen-furniture",
-    secondaryBtnText: "Karachi Showroom",
+    label: "In-House Manufacturing & Precision Joinery",
+    title: "Master Woodwork, Fluted Panelling & Bespoke Cabinetry",
+    description: "Solid Grade-A Burmese teak, kiln-dried walnut, architectural ceiling rafters, and made-to-measure dressing rooms crafted to the millimeter by master carpenters.",
+    image: "/images/wooden-kitchen-ceiling.jpg",
+    primaryBtnText: "Discover Master Woodwork",
+    primaryBtnLink: "/services/kitchens-wardrobes-architectural-joinery",
+    secondaryBtnText: "The Products Atelier",
+    secondaryBtnLink: "/products"
+  },
+  {
+    label: "Complete Design & Build Fitouts",
+    title: "Turnkey Living Spaces Crafted to Endure",
+    description: "A single accountable partner for civil renovations, MEP, Italian stone masonry, custom furniture, and white-glove handover with a 5-year structural warranty.",
+    image: "/img/hero/hero-living-salon.jpg",
+    primaryBtnText: "View Renovation Services",
+    primaryBtnLink: "/services",
+    secondaryBtnText: "Visit Karachi Showroom",
     secondaryBtnLink: "/contact"
   }
 ];

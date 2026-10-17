@@ -16,6 +16,7 @@ import { SmoothScroll } from './components/common/SmoothScroll';
 
 import Home from './pages/Home';
 import DepartmentPage from './pages/DepartmentPage';
+import ProductsPage from './pages/ProductsPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ServicesIndex from './pages/ServicesIndex';
 import ServiceDetail from './pages/ServiceDetail';
@@ -84,7 +85,7 @@ function AgasAppShell() {
           <Route path="/thank-you" element={<ThankYou />} />
 
           {/* All Products Catalogue & Department Routes */}
-          <Route path="/products" element={<DepartmentPage />} />
+          <Route path="/products" element={<ProductsPage />} />
           <Route path="/bedroom-furniture" element={<DepartmentPage categorySlug="bedroom-furniture" />} />
           <Route path="/bedroom-furniture/:subcategory" element={<DepartmentPage categorySlug="bedroom-furniture" />} />
           <Route path="/living-room-furniture" element={<DepartmentPage categorySlug="living-room-furniture" />} />
