@@ -353,5 +353,56 @@ export const SERVICES: Service[] = [
         a: "Yes. We inspect and test the existing membrane and apply multi-layer elastomeric waterproofing before constructing any planters or decking."
       }
     ]
+  },
+  {
+    id: "srv-house-plans-mapping",
+    name: "Architectural House Plans & 2D/3D Floor Maps",
+    slug: "architectural-house-plans",
+    summary: "Master architectural 2D floor plans, 3D elevation maps, structural working drawings, and municipal submission layouts for 120, 240, 500, 1000 & 2000 Sq.Yd plots across Pakistan.",
+    description: "A great home or commercial building begins with a flawless architectural map. AGAS Interiors develops precision 2D floor layouts, front/rear 3D elevation maps, MEP engineering schematics, and DHA/Cantonment/SBCA-compliant submission blueprints. We optimize natural airflow, sunlight orientation, privacy zoning, and furniture ergonomics before you invest in grey construction.",
+    inclusions: [
+      "2D Detailed Floor Plans (Ground, First, Basement, Penthouse & Rooftop)",
+      "Photorealistic 3D Front & Exterior Elevation Maps",
+      "Structural, Plumbing, Drainage & Electrical (MEP) Working Drawings",
+      "Authority Submission Maps (DHA, Cantonment Board, SBCA, Bahria Town)",
+      "3D Furniture Layout & Spatial Traffic Flow Schematics",
+      "Bill of Quantities (BOQ) & Material Estimation Schedules"
+    ],
+    materials: [
+      "AutoCAD 2D Precision Working Blueprints",
+      "3ds Max & V-Ray Photorealistic 3D Elevation Modeling",
+      "BIM (Building Information Modeling) Structural Coordination",
+      "Comprehensive Printed Architectural Drawing Sets & PDF Bundles"
+    ],
+    process: [
+      "Plot Dimensioning, Orientation & Zoning By-Law Audit",
+      "Client Lifestyle Interview & Space Requirement Matrix",
+      "Preliminary 2D Floor Plan Concept Iterations",
+      "3D Exterior Elevation Modeling & Material Selection",
+      "Detailed MEP, Structural Drawings & Approval Submission Set Handover"
+    ],
+    gallery: [
+      {
+        url: "/images/hero-wooden-villa.jpg",
+        alt: "Architectural bungalow elevation and floor map",
+        caption: "500 Sq.Yd DHA Phase 8 modern elevation design"
+      },
+      {
+        url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        alt: "Contemporary villa architectural layout",
+        caption: "3D architectural floor map and exterior flow"
+      }
+    ],
+    relatedProjectIds: ["proj-dha-phase6-house-plan", "proj-dha-phase8-villa", "proj-dha-phase6-duplex"],
+    faqs: [
+      {
+        q: "Do you create house plans and maps for plots outside Karachi?",
+        a: "Yes. We design architectural house maps and 3D elevations for plots across Pakistan including Islamabad, Lahore, Bahria Town, and Gwadar, delivering complete CAD and PDF working drawing sets."
+      },
+      {
+        q: "Are your house maps compliant with DHA, CBC and SBCA bylaws?",
+        a: "Absolutely. Every architectural plan is engineered strictly within the setback regulations, height limits, and floor-area ratios (FAR) of the relevant municipal authority."
+      }
+    ]
   }
 ];

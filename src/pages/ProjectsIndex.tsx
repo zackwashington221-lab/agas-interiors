@@ -6,6 +6,8 @@ import { useEnquiry } from '../context/EnquiryContext';
 
 const CATEGORIES = [
   'All',
+  'House Plans & Maps',
+  'Bungalow Renovations',
   'Interior Design',
   'Complete Renovations',
   'Kitchens & Joinery',

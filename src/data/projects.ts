@@ -144,5 +144,49 @@ export const PROJECTS: Project[] = [
     productIds: ["aura-5", "aura-6", "aura-living-3"],
     serviceIds: ["srv-home-renovation", "srv-walls-ceilings", "srv-custom-furniture"],
     featured: true
+  },
+  {
+    id: "proj-dha-phase6-house-plan",
+    title: "500 Sq.Yd House Plan & Bungalow Turnkey Renovation",
+    slug: "500-sqyd-house-plan-and-bungalow-renovation",
+    summary: "Architectural 2D/3D floor mapping, front facade elevation, structural MEP working drawings, and turnkey interior fitout for a 500 sq.yd corner residence in DHA Phase 6, Karachi.",
+    brief: "The owner required a complete architectural redesign of an older 500 sq.yd structure, beginning with a revised 2D floor plan map submitted to DHA, a cutting-edge contemporary 3D facade elevation, and a turnkey interior renovation featuring master timber joinery.",
+    approach: "Our architectural mapping team optimized the ground floor into an expansive open-concept living pavilion with floor-to-ceiling glass doors opening onto an internal landscaped courtyard. Our in-house timber workshop fabricated bespoke teak exterior louvers, fluted living room panelling, and a custom walnut kitchen.",
+    categories: ["House Plans & Maps", "Bungalow Renovations", "Interior Design", "Complete Renovations", "Kitchens & Joinery"],
+    location: "D.H.A. Phase 6, Karachi",
+    completionYear: "2026",
+    gallery: [
+      {
+        url: "/images/hero-wooden-villa.jpg",
+        alt: "Architectural 3D Elevation and Floor Plan Map",
+        caption: "500 Sq.Yd DHA Phase 6 modern elevation and floor layout"
+      },
+      {
+        url: "/images/wooden-kitchen-ceiling.jpg",
+        alt: "Renovated chef kitchen and wooden ceiling",
+        caption: "Open-plan kitchen integrated with slatted wooden ceiling"
+      },
+      {
+        url: "/images/wpc-fluted-wall.jpg",
+        alt: "Fluted acoustic wood panelling in main lounge",
+        caption: "Lounge with bespoke fluted wall and concealed doorway"
+      }
+    ],
+    materialsUsed: [
+      "Grade-A Burma Teak Wood Louvers",
+      "Roman Beige Travertine Facade Cladding",
+      "American Walnut & Smoked Oak Joinery",
+      "Low-E Double Glazed Thermally Broken Windows"
+    ],
+    scope: [
+      "Complete 2D ground and first floor working blueprints and DHA approval submission set",
+      "3D modern parametric front elevation with teak wood louvers and stone cladding",
+      "Structural reconfiguration of the ground floor into an open-plan living and chef kitchen",
+      "Master woodwork package including fluted wall panelling and walk-in wardrobes",
+      "Complete MEP overhaul with smart automation lighting integration"
+    ],
+    productIds: ["agas-outdoor-1", "agas-outdoor-6", "agas-living-1"],
+    serviceIds: ["srv-house-plans-mapping", "srv-home-renovation", "srv-interior-design"],
+    featured: true
   }
 ];

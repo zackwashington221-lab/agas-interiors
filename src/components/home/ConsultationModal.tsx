@@ -122,12 +122,16 @@ export const ConsultationModal: React.FC = () => {
                 onChange={e => setRoomType(e.target.value)}
                 className="w-full bg-white border border-[#d3cec6] px-3.5 py-2.5 text-xs text-[#1a1a1a] focus:outline-none focus:border-[#a67c3d]"
               >
-                <option value="Bedroom">Master Bedroom / Bed Set</option>
-                <option value="Living Room">Living Room / Sectional &amp; TV Unit</option>
-                <option value="Modular Kitchen">Nordika Modular Kitchen</option>
-                <option value="Dining Room">Dining Suite &amp; Display Cabinet</option>
-                <option value="Walk-in Closet">Walk-in Closet System</option>
-                <option value="Complete Home">Complete Home Interior</option>
+                <option value="House Plans & Mapping">Architectural House Plan & 2D/3D Map (120–2000 Sq.Yd)</option>
+                <option value="Complete Bungalow Renovation">Complete Bungalow / Villa Renovation</option>
+                <option value="Apartment Renovation">Apartment / Penthouse Turnkey Renovation</option>
+                <option value="Corporate Office Fitout">Corporate Office / Commercial Fitout</option>
+                <option value="Master Woodwork & Joinery">Master Woodwork, Fluted Panelling & Ceilings</option>
+                <option value="Bedroom">Master Bedroom Suite & Bespoke Bed</option>
+                <option value="Living Room">Living Room & Architectural Media Wall</option>
+                <option value="Modular Kitchen">Luxury Kitchen & Cabinetry</option>
+                <option value="Dining Room">Dining Suite & Display Cabinet</option>
+                <option value="Walk-in Closet">Custom Walk-in Closet & Wardrobes</option>
               </select>
             </div>
 

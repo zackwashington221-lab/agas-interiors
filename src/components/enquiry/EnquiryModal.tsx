@@ -246,9 +246,12 @@ export const EnquiryModal: React.FC = () => {
                     onChange={e => setProjectType(e.target.value)}
                     className="w-full bg-white border border-[#B9B3A8] px-3.5 py-2.5 text-xs text-[#202321] focus:outline-none focus:border-[#806B54]"
                   >
-                    <option value="House / Villa">Complete House / Villa (500–2,000 sq yd)</option>
+                    <option value="House / Villa">Complete House / Bungalow (120–2,000 sq yd)</option>
+                    <option value="House Plan & Mapping">New Plot / House Plan & 2D/3D Map (120–2000 Sq.Yd)</option>
+                    <option value="Turnkey Site Renovation">Turnkey Site / Bungalow Renovation</option>
                     <option value="Apartment / Penthouse">Apartment / Seafront Penthouse</option>
-                    <option value="Commercial / Office">Corporate Office / Retail</option>
+                    <option value="Commercial / Office">Corporate Office / Commercial Fitout</option>
+                    <option value="Master Woodwork & Joinery">Master Woodwork, Wardrobes & Wall Panelling</option>
                     <option value="Single Room">Individual Room / Master Suite</option>
                     <option value="Rooftop / Terrace">Rooftop Terrace / Garden</option>
                   </select>

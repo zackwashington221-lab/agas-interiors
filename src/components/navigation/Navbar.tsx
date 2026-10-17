@@ -42,6 +42,23 @@ const NAV_SECTIONS: NavSection[] = [
     }
   },
   {
+    title: "House Plans & Maps",
+    href: "/services/architectural-house-plans",
+    items: [
+      { title: "120 & 240 Sq.Yd Floor Plans", href: "/services/architectural-house-plans", description: "Urban residential floor maps & working drawings" },
+      { title: "500 Sq.Yd Luxury Villa Plans", href: "/services/architectural-house-plans", description: "Open-plan living, double-height foyers & basements" },
+      { title: "1000 & 2000 Sq.Yd Estates", href: "/services/architectural-house-plans", description: "Palatial master layouts, pavilions & pools" },
+      { title: "3D Front Elevation Designs", href: "/services/architectural-house-plans", description: "Photorealistic daytime & twilight exterior renders" },
+      { title: "DHA & SBCA Submission Sets", href: "/services/architectural-house-plans", description: "Bylaw-compliant working blueprints & MEP drawings" }
+    ],
+    featured: {
+      title: "Master Architectural Blueprints",
+      caption: "Precision 2D floor plans, 3D elevations, and authority submission sets",
+      image: "/images/hero-wooden-villa.jpg",
+      href: "/services/architectural-house-plans"
+    }
+  },
+  {
     title: "Renovations & Fitouts",
     href: "/services",
     items: [
